@@ -1,0 +1,264 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/  
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+  }
+
+  h1{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: xx-large;
+  }
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  .gradient-background {
+    background: linear-gradient(300deg, #E4C59E, #AF8260, #803D3B);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+  element.style {
+    background-image: url('../images/project1.jpg');
+  }
+
+  element.style {
+  background-image: url('../images/project2.jpg');
+  }
+
+  element.style {
+  background-image: url('../images/project3.jpg');
+  }
+
+    .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .profile-img {
+    height: 500px;
+    border-radius: 8%;
+  }
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  background-position: center;  
+}
+.contact1 {
+  background-image: url('../images/contact.jpg');
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*--------------------------------------------------------------
+# Section
+--------------------------------------------------------------*/
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+  }
+  
+  .section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #0563bb;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about .content ul strong {
+  margin-right: 10px;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #0563bb;
+  line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #F0EBE3;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.btn {
+  background: #135D66;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  background-image: url('../images/footer.jpg');
+  background-size: cover;
+  background-position: center;  
+}
+
+/*--------------------------------------------------------------
+# Nav
+--------------------------------------------------------------*/
+.nav-link:hover {
+  background-color: #FFF5E0;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
